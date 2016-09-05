@@ -11,7 +11,7 @@ So here is my recreation.
 * parser: take tokens as input, output a AST tree
 * transformer: take ast as input, output another AST
 
-## Better Do Yourself
+## Better Do It Yourself
 
 run
 
@@ -20,6 +20,8 @@ run
 `babel-node --presets=es2015 test/test_parser.js`
 
 `babel-node --presets=es2015 test/test_transformer.js`
+
+`babel-node --presets=es2015 test/test_all.js`
 
 to see what the compiler does in each phase.
 
